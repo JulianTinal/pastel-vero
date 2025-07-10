@@ -27,25 +27,19 @@ function MomentosComponent() {
   return (
     <>
        {/* Bienvenida y CTA */}
-       <div className="container mx-auto px-6 py-12 lg:py-16 text-center">
+       <div className="container -mt-10 mx-auto px-6 py-12 lg:py-16 text-center">
         <h1 className="text-4xl lg:text-6xl font-bold text-pink-800 mb-4 lg:mb-6 leading-tight max-w-4xl mx-auto">
-          Dulces Momentos, Recuerdos Inolvidables
+          Lo que nos diferencia
         </h1>
         <p className="text-xl lg:text-2xl text-pink-700 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Creamos obras maestras de repostería que transforman tus celebraciones en momentos mágicos
+          Tradición, creatividad y frescura en cada pedido.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-lg mx-auto">
-          <button className="w-full sm:w-auto px-8 py-4 bg-pink-500 text-white rounded-full text-lg font-semibold hover:bg-pink-600 transition-all shadow-lg hover:shadow-xl">
-            Hacer Pedido
-          </button>
-          <button className="w-full sm:w-auto px-8 py-4 bg-white/80 text-pink-500 rounded-full text-lg font-semibold hover:bg-white transition-all shadow-lg hover:shadow-xl">
-            Ver Catálogo
-          </button>
-        </div>
+        
+        
       </div>
 
       {/* Características */}
-      <div className="container mx-auto px-6 py-12 lg:py-16">
+      <div className="container mx-auto px-6 -mt-14 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div 

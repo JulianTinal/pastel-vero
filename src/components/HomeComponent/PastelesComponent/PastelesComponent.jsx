@@ -24,11 +24,11 @@ const PastelesComponent = () => {
   ];
 
   return (
-    <div className="w-full  py-8 sm:py-12 md:py-16">
+    <div className="w-full -mt-11 py-8 sm:py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-12 relative">
-          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-pink-100/30 via-pink-200/30 to-pink-100/30 blur-3xl" />
+          <div className="absolute inset-0 -z-10  " />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-pink-800 mb-3">
             Nuestras Especialidades
           </h2>

@@ -20,7 +20,7 @@ function TestimoniosComponent() {
   return (
     <>
         {/* Testimonios */}
-        <div className="container mx-auto px-6 py-12 lg:py-16">
+        <div className="-mt-14 container mx-auto px-6 py-12 lg:py-16">
         <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 lg:p-12 shadow-xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold text-pink-800 mb-4 leading-tight">
