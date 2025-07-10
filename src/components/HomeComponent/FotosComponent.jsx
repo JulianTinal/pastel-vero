@@ -1,28 +1,23 @@
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 
-import foto1 from '/public/images/pastel1.jpg';
-import foto2 from '/public/images/pastel2.jpg';
-import foto3 from '/public/images/pastel3.jpg';
-import foto4 from '/public/images/pastel4.jpg';
-import foto5 from '/public/images/pastel5.jpg';
-import foto6 from '/public/images/pastel6.jpg';
-import foto7 from '/public/images/pastel7.jpg';
+
 
 const FotosComponent = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const fotos = [
-    { id: 1, src: foto1, alt: "" },
-    { id: 2, src: foto2, alt: "" },
-    { id: 3, src: foto3, alt: "" },
-    { id: 4, src: foto4, alt: "" },
-    { id: 5, src: foto5, alt: "" },
-    { id: 6, src: foto6, alt: "" },
-    { id: 7, src: foto7, alt: "" }
-  ];
+ const fotos = [
+  { id: 1, src: '/images/pastel1.jpg', alt: '' },
+  { id: 2, src: '/images/pastel2.jpg', alt: '' },
+  { id: 3, src: '/images/pastel3.jpg', alt: '' },
+  { id: 4, src: '/images/pastel4.jpg', alt: '' },
+  { id: 5, src: '/images/pastel5.jpg', alt: '' },
+  { id: 6, src: '/images/pastel6.jpg', alt: '' },
+  { id: 7, src: '/images/pastel7.jpg', alt: '' },
+];
+
 
   const openImage = (index) => {
     setSelectedImage(fotos[index].src);
