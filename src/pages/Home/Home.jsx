@@ -93,7 +93,7 @@ const Home = () => {
         <div className="flex flex-col gap-4">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/521XXXXXXXXXX" // Reemplaza por tu número real
+            href="https://wa.me/5219995461125" // Reemplaza por tu número real
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-110 active:scale-95"
@@ -104,7 +104,7 @@ const Home = () => {
           
           {/* Messenger */}
           <a
-            href="https://m.me/USUARIO" // Reemplaza por tu usuario real de Messenger
+            href="https://www.messenger.com/t/104440672003285" // Reemplaza por tu usuario real de Messenger
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 hover:bg-blue-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-110 active:scale-95"
